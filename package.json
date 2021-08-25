@@ -1,0 +1,28 @@
+{
+    "name": "bee-theme",
+    "displayName": "bee-theme",
+    "description": "Theme developed by Web Colmeia",
+    "version": "0.0.1",
+    "publisher": "eulukasthyago",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "assets/web-colmeia-icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bee Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bee-theme-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webcolmeia/bee-theme"
+    },
+    "homepage": "https://github.com/webcolmeia/bee-theme"
+}
