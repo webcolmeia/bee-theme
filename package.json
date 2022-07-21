@@ -2,7 +2,7 @@
     "name": "bee-theme",
     "displayName": "Bee Theme",
     "description": "Theme developed by Web Colmeia",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "eulukasthyago",
     "engines": {
         "vscode": "^1.59.0"
