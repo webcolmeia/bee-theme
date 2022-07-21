@@ -109,7 +109,7 @@
             "name": "punctuation.definition",
             "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -144,7 +144,7 @@
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -736,7 +736,7 @@
             "name": "Strings",
             "scope": "string",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -792,7 +792,7 @@
             "name": "Attribute IDs",
             "scope": "entity.other.attribute-name.id",
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "italic",
                 "foreground": "#61afef"
             }
         },
@@ -800,7 +800,7 @@
             "name": "Attribute class",
             "scope": "entity.other.attribute-name.class.css",
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "italic",
                 "foreground": "#d19a66"
             }
         },
@@ -899,14 +899,14 @@
             "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
             "scope": "markup.inline.raw.markdown",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
             "scope": "markup.inline.raw.string.markdown",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1038,7 +1038,7 @@
             "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
             "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1052,14 +1052,14 @@
             "name": "[VSCODE-CUSTOM] JSON Property Name",
             "scope": "support.type.property-name.json",
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#ffc864"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
             "scope": "support.type.property-name.json punctuation",
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#ffc864"
             }
         },
         {
@@ -1381,7 +1381,7 @@
                 "keyword.other.template.begin"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1390,7 +1390,7 @@
                 "keyword.other.template.end"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1399,7 +1399,7 @@
                 "keyword.other.substitution.begin"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1408,7 +1408,7 @@
                 "keyword.other.substitution.end"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1537,7 +1537,7 @@
                 "source.ini"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1591,7 +1591,7 @@
                 "meta.definition.class.inherited.classes.groovy"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1697,7 +1697,7 @@
                 "beginning.punctuation.definition.quote.markdown.xi"
             ],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#ccd6dd"
             }
         },
         {
@@ -1879,18 +1879,18 @@
         "statusBarItem.hoverBackground": "#ffffff1f",
         "statusBar.debuggingBackground": "#cc6633",
         "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.noFolderBackground": "#68217a",
-        "statusBar.noFolderForeground": "#ffffff",
-        "statusBarItem.remoteBackground": "#16825d",
+        "statusBar.noFolderBackground": "#ffc864",
+        "statusBar.noFolderForeground": "#2a2a2a",
+        "statusBarItem.remoteBackground": "#3c2d10",
         "statusBarItem.remoteForeground": "#ffffff",
         "titleBar.activeBackground": "#2a2a2a",
         "titleBar.activeForeground": "#ccd6dd",
         "titleBar.inactiveBackground": "#2a2a2aeb",
         "titleBar.inactiveForeground": "#ccd6dd",
-        "titleBar.border": "#ccd6dd14",
+        "titleBar.border": "#2a2a2a",
         "menubar.selectionForeground": "#2a2a2a",
         "menubar.selectionBackground": "#ffc864",
-        "menubar.selectionBorder": "#fb0000",
+        "menubar.selectionBorder": "#ffc864",
         "menu.foreground": "#ccd6dd",
         "menu.background": "#2a2a2a",
         "menu.selectionForeground": "#2a2a2a",
@@ -1972,13 +1972,13 @@
         "badge.background": "#4d4d4d",
         "badge.foreground": "#ffffff",
         "terminal.foreground": "#cccccc",
-        "terminal.selectionBackground": "#ffffff40",
+        "terminal.selectionBackground": "#ffc96429",
         "terminalCursor.background": "#0087FF",
-        "terminalCursor.foreground": "#ffffff",
-        "terminal.border": "#80808059",
+        "terminalCursor.foreground": "#ffc864",
+        "terminal.border": "#5bc07359",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiBlue": "#2472c8",
-        "terminal.ansiBrightBlack": "#666666",
+        "terminal.ansiBrightBlack": "#ffc864",
         "terminal.ansiBrightBlue": "#3b8eea",
         "terminal.ansiBrightCyan": "#29b8db",
         "terminal.ansiBrightGreen": "#23d18b",
