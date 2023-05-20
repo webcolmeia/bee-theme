@@ -1,28 +1,38 @@
 {
-    "name": "bee-theme",
-    "displayName": "Bee Theme",
-    "description": "Theme developed by Web Colmeia",
-    "version": "1.0.2",
-    "publisher": "eulukasthyago",
-    "engines": {
-        "vscode": "^1.59.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "assets/web-colmeia-icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Bee Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/bee-theme-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/webcolmeia/bee-theme"
-    },
-    "homepage": "https://github.com/webcolmeia/bee-theme"
+  "name": "bee-theme",
+  "displayName": "Bee Theme",
+  "description": "Theme developed by Web Colmeia",
+  "version": "2.0.0",
+  "publisher": "eulukasthyago",
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "icon": "assets/web-colmeia-icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bee Theme 2.0",
+        "path": "./themes/bee-theme-color-theme-tow.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Bee Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bee-theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcolmeia/bee-theme"
+  },
+  "homepage": "https://github.com/webcolmeia/bee-theme"
 }
