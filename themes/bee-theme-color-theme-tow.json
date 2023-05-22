@@ -445,36 +445,28 @@
     },
     {
       "name": "Markup Deleted",
-      "scope": [
-        "markup.deleted"
-      ],
+      "scope": ["markup.deleted"],
       "settings": {
         "foreground": "#f07178"
       }
     },
     {
       "name": "Markup Inserted",
-      "scope": [
-        "markup.inserted"
-      ],
+      "scope": ["markup.inserted"],
       "settings": {
         "foreground": "#C3E88D"
       }
     },
     {
       "name": "Markup Underline",
-      "scope": [
-        "markup.underline"
-      ],
+      "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline"
       }
     },
     {
       "name": "Keyword Control",
-      "scope": [
-        "keyword.control"
-      ],
+      "scope": ["keyword.control"],
       "settings": {
         "foreground": "#89DDFF",
         "fontStyle": "italic"
@@ -482,18 +474,14 @@
     },
     {
       "name": "Parameter",
-      "scope": [
-        "variable.parameter"
-      ],
+      "scope": ["variable.parameter"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Python - Self Parameter",
-      "scope": [
-        "variable.parameter.function.language.special.self.python"
-      ],
+      "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
         "foreground": "#f07178",
         "fontStyle": "italic"
@@ -501,18 +489,14 @@
     },
     {
       "name": "Python - Format Placeholder",
-      "scope": [
-        "constant.character.format.placeholder.other.python"
-      ],
+      "scope": ["constant.character.format.placeholder.other.python"],
       "settings": {
         "foreground": "#F78C6C"
       }
     },
     {
       "name": "Markdown - Blockquote",
-      "scope": [
-        "markup.quote"
-      ],
+      "scope": ["markup.quote"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#89DDFF"
@@ -520,18 +504,14 @@
     },
     {
       "name": "Markdown - Fenced Language",
-      "scope": [
-        "markup.fenced_code.block"
-      ],
+      "scope": ["markup.fenced_code.block"],
       "settings": {
         "foreground": "#EEFFFF90"
       }
     },
     {
       "name": "Markdown - Blockquote Punctuation",
-      "scope": [
-        "punctuation.definition.quote"
-      ],
+      "scope": ["punctuation.definition.quote"],
       "settings": {
         "foreground": "#ff9cac"
       }
@@ -621,8 +601,8 @@
   "colors": {
     "focusBorder": "#FFFFFF00",
     "foreground": "#EEFFFF",
-    "button.background": "#61616150",
-    "button.foreground": "#ffffff",
+    "button.background": "#FFCC66FF",
+    "button.foreground": "#2A2A2A",
     "dropdown.background": "#1A1A1A",
     "input.background": "#2B2B2B",
     "inputOption.activeBorder": "#EEFFFF30",
@@ -647,11 +627,16 @@
     "editorGroupHeader.tabsBackground": "#1A1A1A",
     "tab.border": "#1A1A1A",
     "tab.activeBorder": "#FFCC66",
+    "tab.activeBackground": "#2A2A2A",
     "tab.inactiveBackground": "#1A1A1A",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#848484",
     "tab.activeModifiedBorder": "#848484",
     "tab.inactiveModifiedBorder": "#904348",
     "tab.unfocusedActiveModifiedBorder": "#c05a60",
     "tab.unfocusedInactiveModifiedBorder": "#904348",
+    "tab.unfocusedActiveBorder": "#4A4A4A",
+    "tab.unfocusedActiveForeground": "#EEFFFF",
     "editor.background": "#1A1A1A",
     "editor.foreground": "#EEFFFF",
     "editorLineNumber.foreground": "#424242",
@@ -740,17 +725,13 @@
     "editorGutter.addedBackground": "#C3E88D60",
     "editorGutter.deletedBackground": "#f0717860",
     "activityBar.border": "#3A3A3AFF",
-    "activityBar.foreground": "#EEFFFF",
+    "activityBar.foreground": "#FFCC66",
+    "activityBar.inactiveForeground" : "#EEFFFF5F",
     "activityBar.activeBorder": "#FFCC66",
     "extensionBadge.remoteForeground": "#EEFFFF",
     "scrollbarSlider.background": "#EEFFFF20",
     "scrollbarSlider.hoverBackground": "#EEFFFF10",
     "scrollbarSlider.activeBackground": "#FFCC66",
-    "tab.unfocusedActiveBorder": "#4A4A4A",
-    "tab.activeForeground": "#FFFFFF",
-    "tab.inactiveForeground": "#848484",
-    "tab.activeBackground": "#1A1A1A",
-    "tab.unfocusedActiveForeground": "#EEFFFF",
     "editorWidget.resizeBorder": "#FFCC66",
     "editorWidget.border": "#FFCC66",
     "statusBar.border": "#3A3A3AFF",

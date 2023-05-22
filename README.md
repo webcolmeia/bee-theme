@@ -1,5 +1,5 @@
 
-# Bee Theme
+# Bee Theme 2.0
 
 Theme developed by [Web Colmeia](https://webcolmeia.com.br/) / [Lucas Tiago](https://github.com/eulukasthyago).
 
@@ -12,6 +12,8 @@ This theme has colors based on bees with pastel tones.
 - [@webcolmeia](https://www.github.com/webcolmeia)
 
 ## Web Colmeia Colors
+
+![Screenshot 01](./assets/screenshot01.png)
 
 | Colors               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
